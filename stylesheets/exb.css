@@ -1,3 +1,11 @@
+.exb {
+  width: 70.5vw;
+  height: 78vw;
+  background-size: 100%;
+  background-image: url(../images/ВЕБ-ВЫСТАВКА.png);
+  background-repeat: no-repeat;
+}
+
 
 h6 {
   font-family: 'Neue Machina';
@@ -71,7 +79,7 @@ html {
 }
 .scroll_container {
   width: 70vw;
-  height: 78vw;
+  height: 70vw;
   position: relative;
   background-color: white;
   overflow-y: scroll;
@@ -93,17 +101,15 @@ h1 {
   font-family: 'Neue Machina';
   font-weight: 300;
   letter-spacing: 1em;
-  font-size: 3.5vw;
-  color: #DBFF02;
-  text-decoration: underline 2px;
-  text-align: center;
+  font-size: 5vw;
+  color: #000AFF;
+  text-decoration: underline 5px;
   padding: 2%;
 
 }
 .black {
   width: 32vw;
   height: 5vw;
-  background-color: black;
   position: fixed;
   left: 11vw;
   top: 6vw;
@@ -162,4 +168,18 @@ h1 {
 }
 .link {
   color: #000AFF;
+}
+.btnblue {
+  background-color: #000AFF;
+  width: 21vw;
+  height: 5vw;
+  position: absolute;
+  border: none;
+  top: 65vw;
+  left: 2vw;
+  font-size: 1vw;
+  color: white;
+  font-family: 'Neue Machina';
+  text-align: center;
+  padding-top: 2vw;
 }

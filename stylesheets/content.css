@@ -378,6 +378,8 @@ body {
   font-family: 'GT Flexa Mono Trial VF';
   font-variation-settings: "wdth" 30, "wght" 400, "ital" 100;
   font-size: 6vw;
+  color: white;
+
 }
   
 
@@ -395,6 +397,8 @@ body {
   font-family: 'GT Flexa Mono Trial VF';
   font-variation-settings: "wdth" 30, "wght" 1000, "ital" 100;
   font-size: 5.5vw;
+  color: white;
+
 }
   
 
@@ -411,6 +415,8 @@ body {
   font-family: 'GT Flexa Trial VF';
   font-variation-settings: "wdth" 30, "wght" 200, "ital" 0;
   font-size: 6.5vw;
+  color: white;
+
 }
   
 
@@ -427,6 +433,8 @@ body {
   font-family: 'GT Flexa Mono Trial VF';
   font-variation-settings: "wdth" 50, "wght" 120, "ital" 0;
   font-size: 3.6vw;
+  color: white;
+
 }
   
 
@@ -443,6 +451,8 @@ body {
   font-family: 'GT Flexa Trial VF';
   font-variation-settings: "wdth" 150, "wght" 550, "ital" 0;
   font-size: 2.8vw;
+  color: white;
+
 }
 
   
@@ -460,6 +470,8 @@ body {
   font-family: 'GT Flexa Mono Trial VF';
   font-variation-settings: "wdth" 0, "wght" 800, "ital" 1;
   font-size: 5.7vw;
+  color: white;
+
 }
 
   
@@ -476,7 +488,7 @@ a:link {
 
 a:visited {
   text-decoration: none;
-  color: white;
+  
 }
 a:hover {
   cursor: crosshair;

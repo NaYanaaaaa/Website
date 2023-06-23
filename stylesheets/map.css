@@ -1,3 +1,28 @@
+.cover {
+  background-image: url(../images/ОБЛОЖКА\ ГЛАВНАЯ.png);
+    width: 37vw;
+    height: 57vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 3vw;
+    left: 15vw;
+}
+.btn_book {
+  background-color: #000AFF;
+  width: 21vw;
+  height: 5vw;
+  position: absolute;
+  border: none;
+  top: 34vw;
+  left: 23vw;
+  font-size: 1vw;
+  color: white;
+  font-family: 'Neue Machina';
+  text-align: center;
+  padding-top: 2vw;
+
+}
 
 h6 {
   font-family: 'Neue Machina';
