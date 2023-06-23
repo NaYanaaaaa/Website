@@ -1,0 +1,488 @@
+html {
+  cursor: url("../images/pointer.svg"), auto;
+
+
+}
+body {
+  -webkit-font-smoothing: antialiased;
+}
+.main_container {
+  width: 100vw;
+  height: 56vw;
+  background: url(../images/main.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
+  color: white;
+  font-size: 5.2vw;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+/* ФОНЫ ГРАДИЕНТЫ */
+
+
+.grad1 {
+  width: 91vw;
+  height: 47vw;
+  /* background: linear-gradient( #000AFF, #DBFF02, #EA33F7, #FC3C6D); */
+  position: relative;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+/* .grad2 {
+  width: 84vw;
+  height: 38vw;
+  background: linear-gradient( #F9526E, #EEECDF, #EA33F7, #32FF02);
+  position: relative;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  top: 4vw;
+} */
+/* .grad3 {
+  width: 77vw;
+  height: 31vw;
+  background: linear-gradient( #F9526E, #EEECDF, #EA33F7, #32FF02);
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  background-repeat: no-repeat;
+  top: 4vw;
+} */
+
+
+/* ВЕРХНЯЯ АНИМАЦИЯ */
+
+
+.top_name {
+  width: 100vw;
+  height: 5vw;;
+  display: flex;
+  position: absolute;
+  background: -webkit-linear-gradient( #EA33F7 30%, #FF6C02 45%, #DBFF02 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content: center;
+  padding-top: -3vw ;
+}
+
+/* MUSEUM */
+
+.top_name p:nth-of-type(1) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings .3s ease;
+  font-variation-settings: "wdth" 400, "wght" 900, "ital" 100;
+  animation: text1 2.5s infinite ease-in-out;
+}
+@keyframes text1 {
+
+  50% {
+    font-variation-settings: "wdth" 150, "wght" 300, "ital" 100;
+      }
+
+}
+
+/* OF */
+
+.top_name p:nth-of-type(2) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings .3s ease;
+  font-variation-settings: "wdth" 50, "wght" 300, "ital" 100;
+  animation: text2 2.5s infinite ease-in-out;
+
+}
+@keyframes text2 {
+
+  50% {
+    font-variation-settings: "wdth" 300, "wght" 900, "ital" 100;
+      }
+
+}
+
+/* NEURON */
+
+.top_name p:nth-of-type(3) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings 0.3s ease;
+  font-variation-settings: "wdth" 50, "wght" 800, "ital" 0;
+  animation: text3 2.5s infinite ease-in-out;
+}
+
+@keyframes text3 {
+
+  50% {
+    font-variation-settings: "wdth" 150, "wght" 300, "ital" 0;
+      }
+
+}
+
+/* ART */
+
+.top_name p:nth-of-type(4) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings 0.3s ease;
+  font-variation-settings: "wdth" 300, "wght" 700, "ital" 100;
+  animation: text4 2.5s infinite ease-in-out;
+
+}
+
+@keyframes text4 {
+
+  50% {
+    font-variation-settings: "wdth" 150, "wght" 500, "ital" 100;
+      }
+
+}
+
+
+/* ЛЕВАЯ АНИМАЦИЯ */
+
+
+.left_name {
+  width: 53vw;
+  height: 5vw;
+  display: flex;
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 24vw;
+  left: -24vw;
+}
+
+.name_1 {
+  display: flex;
+  position: relative;
+  background: -webkit-linear-gradient( #000AFF 30%, #43F503 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'GT Flexa Trial VF';
+  
+
+}
+
+.name_1 p:nth-of-type(1) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings 0.3s ease;
+  font-variation-settings: "wdth" 20, "wght" 150, "ital" 0;
+  animation: name1 2.5s infinite ease-in-out;
+
+}
+
+@keyframes name1 {
+
+  50% {
+    font-variation-settings: "wdth" 50, "wght" 300, "ital" 0;
+      }
+
+}
+
+.name_1 p:nth-of-type(2) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings 0.3s ease;
+  font-variation-settings: "wdth" 100, "wght" 400, "ital" 0;
+  animation: name2 2.5s infinite ease-in-out;
+
+}
+
+@keyframes name2 {
+
+  50% {
+    font-variation-settings: "wdth" 50, "wght" 200, "ital" 0;
+      }
+
+}
+
+.name_1 p:nth-of-type(3) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings 0.3s ease;
+  font-variation-settings: "wdth" 20, "wght" 400, "ital" 0;
+  animation: name3 2.5s infinite ease-in-out;
+
+}
+
+@keyframes name3 {
+
+  50% {
+    font-variation-settings: "wdth" 20, "wght" 50, "ital" 0;
+      }
+
+}
+
+.name_1 p:nth-of-type(4) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings 0.3s ease;
+  font-variation-settings: "wdth" 20, "wght" 400, "ital" 0;
+  animation: name4 2.5s infinite ease-in-out;
+
+}
+
+@keyframes name4 {
+
+  50% {
+    font-variation-settings: "wdth" 100, "wght" 50, "ital" 0;
+      }
+
+}
+
+
+.name_2 {
+  display: flex;
+  position: relative;
+  background: -webkit-linear-gradient( #0E51FF 13%, #DBFF02 45%, #FB0338 55%, #7E5EFF 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'GT Flexa Trial X Cm Md';
+
+}
+.name_2 p:nth-of-type(1) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings 0.3s ease;
+  font-variation-settings: "wdth" 20, "wght" 200, "ital" 0;
+  /* animation: name4 2.5s infinite ease-in-out; */
+
+}
+
+@keyframes name4 {
+
+  50% {
+    font-variation-settings: "wdth" 20, "wght" 50, "ital" 0;
+      }
+
+}
+
+.name_2 p:nth-of-type(2) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings 0.3s ease;
+  font-variation-settings: "wdth" 20, "wght" 400, "ital" 0;
+  /* animation: name4 2.5s infinite ease-in-out; */
+
+}
+
+@keyframes name4 {
+
+  50% {
+    font-variation-settings: "wdth" 100, "wght" 50, "ital" 0;
+      }
+
+}
+.name_2 p:nth-of-type(3) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings 0.3s ease;
+  font-variation-settings: "wdth" 100, "wght" 400, "ital" 0;
+  /* animation: name4 2.5s infinite ease-in-out; */
+
+}
+
+@keyframes name4 {
+
+  50% {
+    font-variation-settings: "wdth" 20, "wght" 50, "ital" 0;
+      }
+
+}
+
+.name_2 p:nth-of-type(4) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings 0.3s ease;
+  font-variation-settings: "wdth" 20, "wght" 400, "ital" 0;
+  /* animation: name4 2.5s infinite ease-in-out; */
+
+}
+
+@keyframes name4 {
+
+  50% {
+    font-variation-settings: "wdth" 20, "wght" 50, "ital" 0;
+      }
+
+}
+
+
+
+/* НИЖНЯЯ АНИМАЦИЯ */
+
+
+.bottom_name {
+  width: 100vw;
+  height: 5vw;;
+  display: flex;
+  position: absolute;
+  background: -webkit-linear-gradient( #EA33F7 30%, #FF6C02 45%, #DBFF02 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content: center;
+  top: 53vw;
+}
+
+.name_3 {
+  width: 33vw;
+  height: 5vw;
+  position: absolute;
+  background: -webkit-linear-gradient( #EA98EC 13%, #7E5EFF 45%, #FB0338 55%, #DBFF02 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'GT Flexa Trial X Cm Th';
+  left: -6vw;
+}
+
+.bottom_name p:nth-of-type(1) {
+  font-family: 'GT Flexa Trial VF';
+  transition: font-variation-settings 0.3s ease;
+  font-variation-settings: "wdth" 50, "wght" 800, "ital" 0;
+  animation: text5 2.5s infinite ease-in-out;
+}
+@keyframes text5 {
+
+  50% {
+    font-variation-settings: "wdth" 150, "wght" 300, "ital" 0;
+      }
+
+}
+.name_4 {
+  width: 66vw;
+  height: 6vw;
+  position: absolute;
+  background: -webkit-linear-gradient( #000AFF 13%, #DBFF02 45%, #43F503 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'GT Flexa Trial Rg';
+  left: 24.5vw;
+  display: flex;
+
+}
+.name_5 {
+  width: 66vw;
+  height: 6vw;
+  position: absolute;
+  background: -webkit-linear-gradient( #000AFF 13%, #DBFF02 45%, #43F503 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'GT Flexa Trial X Cm Lz It';
+  left: 24.5vw;
+}
+
+.screen {
+  position: absolute;
+  width: 91vw;
+  height: 48.4vw;
+  background: url(../images/main.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 0.5vw;
+}
+
+.urlpage1 {
+  position: absolute;
+  left: 6.7vw;
+  top: 0.3vw;
+  font-family: 'GT Flexa Mono Trial VF';
+  font-variation-settings: "wdth" 30, "wght" 400, "ital" 100;
+  font-size: 6vw;
+}
+  
+
+.urlpage1:hover {
+  transition: font-variation-settings .3s ease-in-out;
+  font-variation-settings: "wdth" 50, "wght" 50, "ital" 100;
+
+
+}
+
+.urlpage2 {
+  position: absolute;
+  left: 52.6vw;
+  top: 0.4vw;
+  font-family: 'GT Flexa Mono Trial VF';
+  font-variation-settings: "wdth" 30, "wght" 1000, "ital" 100;
+  font-size: 5.5vw;
+}
+  
+
+.urlpage2:hover {
+  transition: font-variation-settings .3s ease-in-out;
+  font-variation-settings: "wdth" 50, "wght" 50, "ital" 100;
+
+}
+
+.urlpage3 {
+  position: absolute;
+  left: 0.5vw;
+  top: 18.4vw;
+  font-family: 'GT Flexa Trial VF';
+  font-variation-settings: "wdth" 30, "wght" 200, "ital" 0;
+  font-size: 6.5vw;
+}
+  
+
+.urlpage3:hover {
+  transition: font-variation-settings .3s ease-in-out;
+  font-variation-settings: "wdth" 30, "wght" 200, "ital" 200;
+
+}
+
+.urlpage4 {
+  position: absolute;
+  left: 47.7vw;
+  top: 18.6vw;
+  font-family: 'GT Flexa Mono Trial VF';
+  font-variation-settings: "wdth" 50, "wght" 120, "ital" 0;
+  font-size: 3.6vw;
+}
+  
+
+.urlpage4:hover {
+  transition: font-variation-settings .3s ease-in-out;
+  font-variation-settings: "wdth" 50, "wght" 800, "ital" 100;
+
+}
+
+.urlpage4_1 {
+  position: absolute;
+  left: 47.67vw;
+  top: 21.6vw;
+  font-family: 'GT Flexa Trial VF';
+  font-variation-settings: "wdth" 150, "wght" 550, "ital" 0;
+  font-size: 2.8vw;
+}
+
+  
+
+.urlpage4_1:hover {
+  transition: font-variation-settings .3s ease-in-out;
+  font-variation-settings: "wdth" 150, "wght" 550, "ital" 100;
+
+}
+
+.urlpage5 {
+  position: absolute;
+  left: 22.2vw;
+  top: 26.1vw;
+  font-family: 'GT Flexa Mono Trial VF';
+  font-variation-settings: "wdth" 0, "wght" 800, "ital" 1;
+  font-size: 5.7vw;
+}
+
+  
+
+.urlpage5:hover {
+  transition: font-variation-settings .3s ease-in-out;
+  font-variation-settings: "wdth" 150, "wght" 550, "ital" 100;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  cursor: crosshair;
+}
+.group {
+  top: 12.2vw;
+  left: 7vw;
+  position: absolute;
+}

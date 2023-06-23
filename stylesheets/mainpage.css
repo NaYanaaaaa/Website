@@ -1,0 +1,162 @@
+
+h6 {
+  font-family: 'Neue Machina';
+  font-weight: normal;
+  font-style: normal;
+  color: #000AFF;
+  font-size: 1.5vw;
+  text-decoration: underline;
+  left: 48vw;
+  position: relative;
+  top: 2vw;
+}
+.running_stroke_container {
+  width: 100vw;
+  height: 4vw;
+  position: relative;
+  background: #DBFF02;
+  padding: 0.5vw 0;
+  overflow: hidden;
+  border-bottom: 2px solid #000AFF;
+  position: fixed;
+  z-index: 10;
+}
+.running_stroke_block {
+  width: 200vw;
+  font-family: 'GT Flexa Trial X Cm Md';
+  font-size: 3vw;
+  color: #000AFF;
+  display: block;
+  position: absolute;
+  animation: row 8s linear infinite;
+}
+.running_stroke_text {
+  width: 200vw;
+  font-family: 'GT Flexa Trial X Cm Md';
+  font-size: 3vw;
+  color: #000AFF;
+  display: block;
+  position: absolute;
+}
+* {
+  box-sizing: border-box;
+}
+@keyframes row {
+  0% {transform: translateX(-50%);}
+  100% {transform: translateX(0%);}
+}
+.menu {
+  width: 19vw;
+  height: 93vw;
+  border-right: 2px solid #000AFF;
+  background-color: white;
+  position: fixed;
+}
+
+.menu_style {
+  font-family: 'Neue Machina';
+  font-weight: 300;
+  font-style: normal;
+  color: #000AFF;
+  font-size: 1.8vw;
+  display: inline-block;
+  padding: 12vw 4vw 20vw 4vw;
+  line-height: 3vw;
+  text-decoration: underline;
+
+}
+html {
+  background-color: #000AFF;
+
+}
+.scroll_container {
+  width: 70vw;
+  height: 78vw;
+  position: relative;
+  background-color: white;
+  overflow-y: scroll;
+  left: 19vw;
+  top: 4vw;
+}
+.container {
+  display: flex;
+}
+.bg_image {
+  width: 70vw;
+  height: 39vw;
+  background: url(../images/3d4.png);
+  background-size: 100%;
+}
+
+h1 {
+  width: 32vw;
+  font-family: 'Neue Machina';
+  font-weight: 300;
+  letter-spacing: 1em;
+  font-size: 3.5vw;
+  color: #DBFF02;
+  text-decoration: underline 2px;
+  text-align: center;
+  padding: 2%;
+
+}
+.black {
+  width: 32vw;
+  height: 5vw;
+  background-color: black;
+  position: fixed;
+  left: 11vw;
+  top: 6vw;
+  z-index: 100;
+}
+
+.smalltext {
+  font-family: 'Neue Machina';
+  font-weight: normal;
+  font-style: normal;
+  color: #000AFF;
+  font-size: 1.2vw;
+  width: 38vw;
+  top: 3vw;
+  position: relative;
+  left: 3vw;
+}
+.smalltext1 {
+  font-family: 'Neue Machina';
+    font-weight: normal;
+    font-style: normal;
+    color: #000AFF;
+    font-size: 1.2vw;
+    width: 38vw;
+    top: 13vw;
+    position: relative;
+    left: 3vw;
+}
+.btn {  
+  width: 18vw;
+    height: 5vw;
+    position: relative;
+    background-color: #FB0338;
+    border: none;
+    top: 7vw;
+    left: 3vw;
+    font-size: 1vw;
+    color: white;
+}
+
+.img1 {
+  width: 26vw;
+  height: 16vw;
+  top: 47vw;
+  left: 42vw;
+  position: absolute;
+}
+
+.img2 {
+  width: 29vw;
+  height: 16vw;
+  top: 81vw;
+  left: 3vw;
+  position: absolute;
+
+}

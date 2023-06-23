@@ -1,0 +1,995 @@
+@font-face {
+  font-family: 'GT Flexa Trial Bl It';
+  src: url('../font/GTFlexaTrial-BlIt.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Th It';
+  src: url('../font/GTFlexaTrial-CmThIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Bd';
+  src: url('../font/GTFlexaTrial-Bd.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Md';
+  src: url('../font/GTFlexaTrial-CmMd.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Md It';
+  src: url('../font/GTFlexaTrial-CnMdIt.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Lz It';
+  src: url('../font/GTFlexaTrial-CmLzIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Bl';
+  src: url('../font/GTFlexaTrial-CmBl.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Bd It';
+  src: url('../font/GTFlexaTrial-CnBdIt.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Bl';
+  src: url('../font/GTFlexaTrial-CnBl.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Bd It';
+  src: url('../font/GTFlexaTrial-BdIt.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Rg';
+  src: url('../font/GTFlexaTrial-CnRg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Rg';
+  src: url('../font/GTFlexaTrial-CmRg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Th';
+  src: url('../font/GTFlexaTrial-CmTh.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Lt It';
+  src: url('../font/GTFlexaTrial-CmLtIt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Lz';
+  src: url('../font/GTFlexaTrial-CmLz.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Bd It';
+  src: url('../font/GTFlexaTrial-CmBdIt.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Lz It';
+  src: url('../font/GTFlexaTrial-CnLzIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Md';
+  src: url('../font/GTFlexaTrial-CnMd.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Bd';
+  src: url('../font/GTFlexaTrial-CmBd.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Lt';
+  src: url('../font/GTFlexaTrial-CnLt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Bl It';
+  src: url('../font/GTFlexaTrial-CmBlIt.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Rg It';
+  src: url('../font/GTFlexaTrial-CmRgIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Lz';
+  src: url('../font/GTFlexaTrial-CnLz.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Md It';
+  src: url('../font/GTFlexaTrial-CmMdIt.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Bl';
+  src: url('../font/GTFlexaTrial-Bl.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Bl It';
+  src: url('../font/GTFlexaTrial-CnBlIt.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Bd';
+  src: url('../font/GTFlexaTrial-CnBd.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Rg It';
+  src: url('../font/GTFlexaTrial-CnRgIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Lt It';
+  src: url('../font/GTFlexaTrial-CnLtIt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cm Lt';
+  src: url('../font/GTFlexaTrial-CmLt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Lt';
+  src: url('../font/GTFlexaTrial-ExpLt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Bd';
+  src: url('../font/GTFlexaTrial-ExtBd.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Lz It';
+  src: url('../font/GTFlexaTrial-ExpLzIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Lz';
+  src: url('../font/GTFlexaTrial-ExpLz.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Lt It';
+  src: url('../font/GTFlexaTrial-ExpLtIt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Bl';
+  src: url('../font/GTFlexaTrial-ExtBl.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Md It';
+  src: url('../font/GTFlexaTrial-ExpMdIt.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Bl It';
+  src: url('../font/GTFlexaTrial-ExpBlIt.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Rg';
+  src: url('../font/GTFlexaTrial-ExpRg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Th';
+  src: url('../font/GTFlexaTrial-ExpTh.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Bd';
+  src: url('../font/GTFlexaTrial-ExpBd.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Th It';
+  src: url('../font/GTFlexaTrial-CnThIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Rg It';
+  src: url('../font/GTFlexaTrial-ExpRgIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Bd It';
+  src: url('../font/GTFlexaTrial-ExtBdIt.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Cn Th';
+  src: url('../font/GTFlexaTrial-CnTh.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Bl';
+  src: url('../font/GTFlexaTrial-ExpBl.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Lz It';
+  src: url('../font/GTFlexaTrial-ExtLzIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Md';
+  src: url('../font/GTFlexaTrial-ExpMd.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Bd It';
+  src: url('../font/GTFlexaTrial-ExpBdIt.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Bl It';
+  src: url('../font/GTFlexaTrial-ExtBlIt.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Exp Th It';
+  src: url('../font/GTFlexaTrial-ExpThIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Lz';
+  src: url('../font/GTFlexaTrial-ExtLz.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Rg It';
+  src: url('../font/GTFlexaTrial-ExtRgIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Md';
+  src: url('../font/GTFlexaTrial-ExtMd.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Th';
+  src: url('../font/GTFlexaTrial-ExtTh.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Rg';
+  src: url('../font/GTFlexaTrial-ExtRg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Th It';
+  src: url('../font/GTFlexaTrial-ExtThIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Lt';
+  src: url('../font/GTFlexaTrial-ExtLt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Md It';
+  src: url('../font/GTFlexaTrial-ExtMdIt.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Ext Lt It';
+  src: url('../font/GTFlexaTrial-ExtLtIt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Rg';
+  src: url('../font/GTFlexaMonoTrial-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Lz';
+  src: url('../font/GTFlexaTrial-XCmLz.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Rg It';
+  src: url('../font/GTFlexaMonoTrial-RgIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Th It';
+  src: url('../font/GTFlexaTrial-ThIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Th';
+  src: url('../font/GTFlexaMonoTrial-Th.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Md';
+  src: url('../font/GTFlexaTrial-Md.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Lt';
+  src: url('../font/GTFlexaTrial-Lt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Lz It';
+  src: url('../font/GTFlexaTrial-XCmLzIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Rg';
+  src: url('../font/GTFlexaTrial-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Lt It';
+  src: url('../font/GTFlexaTrial-LtIt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Bd';
+  src: url('../font/GTFlexaMonoTrial-Bd.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Lz';
+  src: url('../font/GTFlexaMonoTrial-Lz.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Lz It';
+  src: url('../font/GTFlexaTrial-LzIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Lz';
+  src: url('../font/GTFlexaTrial-Lz.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Bd It';
+  src: url('../font/GTFlexaTrial-XCmBdIt.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Bl It';
+  src: url('../font/GTFlexaMonoTrial-BlIt.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Lz It';
+  src: url('../font/GTFlexaMonoTrial-LzIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Md It';
+  src: url('../font/GTFlexaTrial-MdIt.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Lt It';
+  src: url('../font/GTFlexaMonoTrial-LtIt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Md It';
+  src: url('../font/GTFlexaMonoTrial-MdIt.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Th';
+  src: url('../font/GTFlexaTrial-Th.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Bl It';
+  src: url('../font/GTFlexaTrial-XCmBlIt.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Bl';
+  src: url('../font/GTFlexaMonoTrial-Bl.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial Rg It';
+  src: url('../font/GTFlexaTrial-RgIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Bd';
+  src: url('../font/GTFlexaTrial-XCmBd.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Bd It';
+  src: url('../font/GTFlexaMonoTrial-BdIt.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Th It';
+  src: url('../font/GTFlexaMonoTrial-ThIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Md';
+  src: url('../font/GTFlexaMonoTrial-Md.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial Lt';
+  src: url('../font/GTFlexaMonoTrial-Lt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Bl';
+  src: url('../font/GTFlexaTrial-XCmBl.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Rg';
+  src: url('../font/GTFlexaTrial-XCmRg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Lt It';
+  src: url('../font/GTFlexaTrial-XCmLtIt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Rg It';
+  src: url('../font/GTFlexaTrial-XCmRgIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Bl It';
+  src: url('../font/GTFlexaTrial-XExpBlIt.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Th';
+  src: url('../font/GTFlexaTrial-XCmTh.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Md';
+  src: url('../font/GTFlexaTrial-XCmMd.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Md It';
+  src: url('../font/GTFlexaTrial-XCmMdIt.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Lt';
+  src: url('../font/GTFlexaTrial-XCmLt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Cm Th It';
+  src: url('../font/GTFlexaTrial-XCmThIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Bd It';
+  src: url('../font/GTFlexaTrial-XExpBdIt.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Md It';
+  src: url('../font/GTFlexaTrial-XExpMdIt.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Rg It';
+  src: url('../font/GTFlexaTrial-XExpRgIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Lz It';
+  src: url('../font/GTFlexaTrial-XExpLzIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Md';
+  src: url('../font/GTFlexaTrial-XExpMd.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Bl';
+  src: url('../font/GTFlexaTrial-XExpBl.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Lt It';
+  src: url('../font/GTFlexaTrial-XExpLtIt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Bd';
+  src: url('../font/GTFlexaTrial-XExpBd.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Rg';
+  src: url('../font/GTFlexaTrial-XExpRg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Lz';
+  src: url('../font/GTFlexaTrial-XExpLz.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Th It';
+  src: url('../font/GTFlexaTrial-XExpThIt.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Lt';
+  src: url('../font/GTFlexaTrial-XExpLt.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial X Exp Th';
+  src: url('../font/GTFlexaTrial-XExpTh.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Mono Trial VF';
+  src: url('../font/GT-Flexa-Mono-Trial-VF.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Flexa Trial VF';
+  src: url('../font/GT-Flexa-Trial-VF.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('NeueMachina-Ultralight.eot');
+  src: local('Neue Machina Ultralight'), local('NeueMachina-Ultralight'),
+      url('../NeueMachina-Ultralight.eot?#iefix') format('embedded-opentype'),
+      url('../NeueMachina-Ultralight.woff2') format('woff2'),
+      url('../NeueMachina-Ultralight.woff') format('woff'),
+      url('../NeueMachina-Ultralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('NeueMachina-Light.eot');
+  src: local('Neue Machina Light'), local('NeueMachina-Light'),
+      url('../font/NeueMachina-Light.eot?#iefix') format('embedded-opentype'),
+      url('../font/NeueMachina-Light.woff2') format('woff2'),
+      url('../font/NeueMachina-Light.woff') format('woff'),
+      url('../font/NeueMachina-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('NeueMachina-Black.eot');
+  src: local('Neue Machina Black'), local('NeueMachina-Black'),
+      url('../font/NeueMachina-Black.eot?#iefix') format('embedded-opentype'),
+      url('../font/NeueMachina-Black.woff2') format('woff2'),
+      url('../font/NeueMachina-Black.woff') format('woff'),
+      url('../font/NeueMachina-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('NeueMachina-Regular.eot');
+  src: local('Neue Machina Regular'), local('NeueMachina-Regular'),
+      url('../font/NeueMachina-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../font/NeueMachina-Regular.woff2') format('woff2'),
+      url('../font/NeueMachina-Regular.woff') format('woff'),
+      url('../font/NeueMachina-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('NeueMachina-Bold.eot');
+  src: local('Neue Machina Bold'), local('NeueMachina-Bold'),
+      url('../font/NeueMachina-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../font/NeueMachina-Bold.woff2') format('woff2'),
+      url('../font/NeueMachina-Bold.woff') format('woff'),
+      url('../font/NeueMachina-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('NeueMachina-Medium.eot');
+  src: local('Neue Machina Medium'), local('NeueMachina-Medium'),
+      url('../font/NeueMachina-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../font/NeueMachina-Medium.woff2') format('woff2'),
+      url('../font/NeueMachina-Medium.woff') format('woff'),
+      url('../font/NeueMachina-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('NeueMachina-Ultrabold.eot');
+  src: local('Neue Machina Ultrabold'), local('NeueMachina-Ultrabold'),
+      url('../font/NeueMachina-Ultrabold.eot?#iefix') format('embedded-opentype'),
+      url('../font/NeueMachina-Ultrabold.woff2') format('woff2'),
+      url('../font/NeueMachina-Ultrabold.woff') format('woff'),
+      url('../font/NeueMachina-Ultrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
